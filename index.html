@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Conheça profissões da Tecnologia da Informação.">
+    <title>Profissões de TI | Carreiras em Tecnologia</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+    
+    <header>
+        <h1>Profissões de TI</h1>
+        <h2>Conheça as oportunidades profissionais na área de tecnologia.</h2>
+
+        <nav aria-label="Navegação principal">
+            <ul>
+                <li><a href="#profissoes">Profissões</a></li>
+                <li><a href="#comparacao">Comparação</a></li>
+                <li><a href="#dicas">Dicas</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+ <div class="layout">
+
+    <main id="conteudo">
+
+        <section id="profissoes">
+            <h2>Três profissões em destaque</h2>
+
+            <article>
+                <h3>Desenvolvedor de Software</h3>
+
+                <figure>
+                    <img src="img/desenvolvedor.png"
+                         alt="Computador com linhas de código de programação"
+                         width="600" height="350">
+                    <figcaption>Desenvolvimento de programas e sistemas.</figcaption>
+                </figure>
+
+                <p>O desenvolvedor de software cria, testa e mantém
+                programas, sites e aplicativos.</p>
+
+                <p><strong>Habilidades:</strong> programação, lógica,
+                criatividade e resolução de problemas.</p>
+            </article>
+
+            <article>
+                <h3>Analista de Segurança da Informação</h3>
+
+                <figure>
+                    <img src="img\seguranca-digital.webp"
+                         alt="Escudo com cadeado representando segurança digital"
+                         width="600" height="350">
+                    <figcaption>Proteção de dados e sistemas digitais.</figcaption>
+                </figure>
+
+                <p>Esse profissional trabalha para proteger informações,
+                redes e sistemas contra ataques virtuais.</p>
+
+                <p><strong>Habilidades:</strong> atenção, organização,
+                conhecimentos de redes e análise de riscos.</p>
+            </article>
+
+            <article>
+                <h3>Analista de Dados</h3>
+
+                <figure>
+                    <img src="img\analista-dados.avif"
+                         alt="Painel com gráficos de análise de dados"
+                         width="600" height="350">
+                    <figcaption>Interpretação de informações e resultados.</figcaption>
+                </figure>
+
+                <p>O analista de dados coleta, organiza e interpreta
+                informações para ajudar na tomada de decisões.</p>
+
+                <p><strong>Habilidades:</strong> organização,
+                interpretação e pensamento analítico.</p>
+            </article>
+        </section>
+
+        <section id="comparacao">
+            <h2>Comparação entre as profissões</h2>
+
+            <table>
+                <caption>Características das profissões de TI</caption>
+
+                <thead>
+                    <tr>
+                        <th scope="col">Profissão</th>
+                        <th scope="col">Atividade principal</th>
+                        <th scope="col">Habilidade</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                    <tr>
+                        <th scope="row">Desenvolvedor</th>
+                        <td>Criar programas e sistemas.</td>
+                        <td>Programação.</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Analista de Segurança</th>
+                        <td>Proteger dados e sistemas.</td>
+                        <td>Atenção e análise.</td>
+                    </tr>
+
+                    <tr>
+                        <th scope="row">Analista de Dados</th>
+                        <td>Interpretar informações.</td>
+                        <td>Organização.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="dicas">
+            <h2>Dicas para começar na área de TI</h2>
+
+            <ul>
+                <li>Estude os fundamentos da informática.</li>
+                <li>Pratique programação.</li>
+                <li>Desenvolva projetos próprios.</li>
+                <li>Busque cursos e oportunidades de estágio.</li>
+            </ul>
+
+            <p><strong>Curiosidade:</strong> profissionais de TI
+            podem trabalhar em empresas de saúde, educação,
+            comércio e indústria.</p>
+
+            <p>Conteúdo atualizado em
+                <time datetime="2026-11-13">13 de novembro de 2026</time>.
+            </p>
+        </section>
+
+        <section id="contato">
+            <h2>Entre em contato</h2>
+
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Seus dados</legend>
+
+                    <div class="campo">
+                        <label for="nome">Nome completo:</label>
+                        <input type="text" id="nome" name="nome"
+                               autocomplete="name" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email"
+                               autocomplete="email" required>
+                    </div>
+
+                    <div class="campo">
+                        <label for="assunto">Assunto:</label>
+                        <select id="assunto" name="assunto" required>
+                            <option value="">Selecione</option>
+                            <option value="desenvolvimento">Desenvolvimento</option>
+                            <option value="seguranca">Segurança da Informação</option>
+                            <option value="dados">Análise de Dados</option>
+                            <option value="outro">Outro</option>
+                        </select>
+                    </div>
+
+                    <div class="campo">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem"
+                                  rows="5" required></textarea>
+                    </div>
+
+                </fieldset>
+
+                <button type="submit">Enviar mensagem</button>
+            </form>
+
+            <p>O formulário é demonstrativo e ainda não está conectado
+            a um servidor.</p>
+        </section>
+
+    </main>
+
+    <aside>
+        <h2>Saiba mais</h2>
+
+        <p>A Tecnologia da Informação oferece diferentes
+        oportunidades profissionais e está presente em
+        diversos setores da sociedade.</p>
+
+        <p>
+            <a href="https://www.gov.br/mec/pt-br"
+               target="_blank" rel="noopener noreferrer">
+                Portal do Ministério da Educação
+            </a>
+        </p>
+    </aside>
+    
+    </div>
+
+    <footer>
+        <address>
+            Projeto acadêmico da disciplina Linguagem de Script para Web.
+            Instituto Federal do Triângulo Mineiro – Campus Uberaba
+            Parque Tecnológico.
+        </address>
+
+        <p>&copy; 2026 – Profissões de TI.</p>
+    </footer>
+
+</body>
+</html>    
